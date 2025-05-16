@@ -12,6 +12,8 @@ function App() {
         <h1>Supa Smoothies</h1>
         <Link to="/">Home</Link>
         <Link to="/create">Create New Smoothie</Link>
+        <a href="https://www.daum.net/">다음 사이트</a>
+        <a href="https://www.daum.net/">홈</a>
       </nav>
       <Routes>
         <Route path="/" element={<Home/>}/>
